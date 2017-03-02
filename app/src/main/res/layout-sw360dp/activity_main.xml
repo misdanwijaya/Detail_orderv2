@@ -113,7 +113,7 @@
                     android:gravity="center"
                     >
 
-                    <customfonts.MyTextView
+                    <TextView
 
                         android:id="@+id/free"
                         android:layout_width="110dp"
@@ -618,6 +618,7 @@
                             android:src="@drawable/phone"
                             android:layout_gravity="center"
                             android:gravity="bottom"
+                            android:onClick="telepon"
 
                             />
 
@@ -661,6 +662,7 @@
                             android:src="@drawable/sms"
                             android:layout_gravity="center"
                             android:gravity="bottom"
+                            android:onClick="sms"
 
                             />
 
